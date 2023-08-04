@@ -1,0 +1,58 @@
+header {
+  display: flex;
+  height: 70px;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+}
+img {
+  height: 50px;
+  width: 150px;
+  object-fit: contain;
+}
+
+p{
+  width: 50%;
+}
+.container {
+  width: 50%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  height: 50px;
+  width: 100px;
+  background-color: aqua;
+  border: none;
+  border-radius: 5px;
+}
+
+.card{
+  height: 400px;
+  width: 300px;
+  background-color: pink;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.image{
+  width: 50%;
+}
+
+.image img{
+  height: 400px;
+  width: 400px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
